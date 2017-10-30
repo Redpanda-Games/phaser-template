@@ -1,5 +1,7 @@
 var gulp = require('gulp');
 var less = require('gulp-less');
+var cssmin = require('gulp-cssmin');
+var rename = require('gulp-rename');
 var eslint = require('gulp-eslint');
 var eslintIfFixed = require('gulp-eslint-if-fixed');
 
@@ -10,6 +12,10 @@ gulp.task('defaukt', function () {
 gulp.task('less', function () {
     return gulp.src('./src/less/styles.less')
         .pipe(less())
+        .pipe(cssmin())
+        .pipe(rename({
+            suffix: '.min'
+        }))
         .pipe(gulp.dest('./public/css'));
 });
 
@@ -41,11 +47,17 @@ gulp.task('copy-config', function () {
         .pipe(gulp.dest('./public/config'));
 });
 
+gulp.task('copy-fonts', function () {
+    return gulp.src(['./src/fonts/**/*'])
+        .pipe(gulp.dest('./public/fonts'));
+});
+
 gulp.task('copy', function() {
     gulp.run('copy-img');
     gulp.run('copy-audio');
     gulp.run('copy-video');
     gulp.run('copy-config');
+    gulp.run('copy-fonts');
 });
 
 gulp.task('publish', function() {
