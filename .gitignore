@@ -3,5 +3,6 @@
 *.iml
 
 # npm/yarn
+node_modules
 *.lock
 *.log
