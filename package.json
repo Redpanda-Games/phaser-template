@@ -4,7 +4,8 @@
   "description": "A basic template for phaser games.",
   "main": "index.html",
   "scripts": {
-    "start": "node node_modules/http-server/bin/http-server"
+    "publish": "gulp publish",
+    "start": "node node_modules/http-server/bin/http-server public"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,11 @@
     "url": "https://github.com/Redpanda-Games/phaser-template/issues"
   },
   "homepage": "https://github.com/Redpanda-Games/phaser-template#readme",
-  "dependencies": {
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^4.0.0",
+    "gulp-eslint-if-fixed": "^1.0.0",
+    "gulp-less": "^3.3.2",
     "http-server": "0.10.0"
   }
 }
