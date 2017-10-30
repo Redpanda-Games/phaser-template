@@ -15,3 +15,8 @@ yarn run start
 ```
 
 After this you can open `http://localhost:8080` in your browser.
+
+## References
+
+* [https://github.com/Redpanda-Games/igjam10](https://github.com/Redpanda-Games/igjam10)
+* [https://github.com/Redpanda-Games/ggj2016](https://github.com/Redpanda-Games/ggj2016)
