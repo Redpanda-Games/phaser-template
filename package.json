@@ -19,9 +19,11 @@
   "homepage": "https://github.com/Redpanda-Games/phaser-template#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.2.0",
     "gulp-eslint": "^4.0.0",
     "gulp-eslint-if-fixed": "^1.0.0",
     "gulp-less": "^3.3.2",
+    "gulp-rename": "^1.2.2",
     "http-server": "0.10.0"
   }
 }
