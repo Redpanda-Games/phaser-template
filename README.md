@@ -10,6 +10,7 @@
 
 ```
 yarn install
+yarn run publish
 yarn run start
 ```
 
