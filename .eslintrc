@@ -15,6 +15,7 @@
     "no-trailing-spaces": ["error"],
     "space-before-function-paren": ["error", "never"],
     "keyword-spacing": ["error", { "before": true, "after": true }],
-    "space-unary-ops": ["error", { "words": true, "nonwords": false }]
+    "space-unary-ops": ["error", { "words": true, "nonwords": false }],
+    "no-undef": "off"
   }
 }
