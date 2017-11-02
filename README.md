@@ -19,3 +19,6 @@ After this you can open `http://localhost:8080` in your browser.
 
 * [https://github.com/Redpanda-Games/igjam10](https://github.com/Redpanda-Games/igjam10)
 * [https://github.com/Redpanda-Games/ggj2016](https://github.com/Redpanda-Games/ggj2016)
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FRedpanda-Games%2Fphaser-template.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FRedpanda-Games%2Fphaser-template?ref=badge_large)
