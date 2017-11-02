@@ -5,7 +5,6 @@
 [![License](https://img.shields.io/github/license/Redpanda-Games/phaser-template.svg?style=flat-square)](https://github.com/Redpanda-Games/phaser-template/blob/master/LICENSE)
 [![Release](https://img.shields.io/github/release/Redpanda-Games/phaser-template.svg?style=flat-square)](https://github.com/Redpanda-Games/phaser-template/releases)
 [![Dependencies](https://www.versioneye.com/user/projects/59f73f3c15f0d71f3207554a/badge.svg?style=flat-square)](https://versioneye.com/user/projects/59f73f3c15f0d71f3207554a)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FRedpanda-Games%2Fphaser-template.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FRedpanda-Games%2Fphaser-template?ref=badge_shield)
 
 ## Installation
 
